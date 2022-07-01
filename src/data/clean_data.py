@@ -13,7 +13,7 @@ def clean_data():
 
     """
 
-import pandas as pd
+    import pandas as pd
     import glob
 
     path = glob.glob(r'data_lake/raw/*.csv')
